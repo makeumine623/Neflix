@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background: linear-gradient(to left,
+                    rgba(37, 37, 37, 0),
+                    rgba(37, 37, 37, 0.2),
+                    rgba(37, 37, 37, 0.4),
+                    rgba(37, 37, 37, 0.6),
+                    rgba(37, 37, 37, 0.8),
+                    rgba(37, 37, 37, 1),
+                    rgba(37, 37, 37, 1)),
+                url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaK5CleqnMR32bekGgyP6V-y8sYJTACQmT2-WL8Txg6vIcqzHAk4GPXQcOnhdkABo3CDo7vkZLXBf4-0XTlBJ3dmL0kXNUppwPvN.jpg?r=120);
+            background-repeat: no-repeat; 
+            background-position: right;
+            background-size: contain;
+            width: 100%;
+            height: calc(100vh - 60px);
+        }
+
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+
+        .under div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+
+    <div class="down">
+
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABeqKyEuIQH-Disxosjy3Jj96dRdIWxqHcDGti46eiHwLXUQnRdyBtz0Fp30u7TIwozyzVhkyaq2VujJSPpGVmq1BYc5biGyuvzHcxOuJ7Aea.png?r=f89">
+            </div>
+            <div class="title">
+                갯마을 차차차
+            </div>
+            <div class="titlee">
+                2021 | 15+ | 시즌 1개 | 코미디
+            </div>
+            <div class="story">
+                대도시 생활을 접은 치과의사가 바닷가 마을에서 병원을 개업한다. 끈끈하기 그지없는 이 동네, 그곳에서 만난 만능 백수 히어로. 모든 면에서 그녀와 정반대를 달리는데, 은근히 매력이
+                넘친다?
+            </div>
+            <div class="storry">
+                주연 : 신민아,김선호,이상이<br>
+                크리에이터 : 유제원,신하은
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81473182'">
+                시청하기
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

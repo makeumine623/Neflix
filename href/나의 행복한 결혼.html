@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background: linear-gradient(to left,
+                    rgba(37, 37, 37, 0),
+                    rgba(37, 37, 37, 0.2),
+                    rgba(37, 37, 37, 0.4),
+                    rgba(37, 37, 37, 0.6),
+                    rgba(37, 37, 37, 0.8),
+                    rgba(37, 37, 37, 1),
+                    rgba(37, 37, 37, 1)),
+                    url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUxxBjy2hTP_u0Pavz7OZYu1a3rIjd_YuZ7KfuU5eisLgHjW_gaq3dxmv5HVZv_xZi7bJoqSrspzTJuVKCnw2IBttd9FXZLCrCVy.jpg?r=6db);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            width: 100%;
+            height: calc(100vh - 60px);
+        }
+
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABeGSctPmzmDsqkVObEAumP3lqXDgygQCvL8xIq4FcKtPYmNPLDMVQrh4ewE3Z3SegsZBPNyw0-r9T0RUPU2eLZzUFYgGeEw4W_fskmCzFUJ-euF1MVcp5VXtNALvcvZ8RGbaV2qKihMJOoRcz9iJLCP1-gsuEchQT0-8uEKxV029NGgTx-9tdw.png?r=831">
+            </div>
+            <div class="title">
+                나의 행복한 결혼
+            </div>
+            <div class="titlee">
+                2023 | 15+ | 시즌 1개 | 아니메
+            </div>
+            <div class="story">
+                쓸모없는 존재로 여겨지며 가족에게 학대받는 미요. 하지만 막강한 약혼자를 만나 진정한 자신의 모습을 깨닫고, 숨겨져 있던 능력을 서서히 발휘하기 시작한다.
+            </div>
+            <div class="storry">
+                주연 : 우에다 레이나,이시카와 카이토,사쿠라 아야네
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81564905'">
+                시청하기
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

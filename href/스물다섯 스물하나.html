@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #252525;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background-image: url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbk0yKNtUmJ2HcDIFEYhBeIg75SJNFU4dgXSf82RKgH_vFZX2mzthbdB39o6VMRtkoMgKtf3pvt1WJSa7bUxe8dwC7zYL5ud902j.jpg?r=82c);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        .under {
+            width: 50%;
+            height: calc(100% - 60px);
+            display: inline-block;
+            padding: 100px;
+            background: linear-gradient(to left,
+                rgba(37,37,37,0),
+                rgba(37,37,37,0.8),
+                rgba(37,37,37,0.9),
+                rgba(37,37,37,1),
+                rgba(37,37,37,1))
+        }
+        
+        .under div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+
+    <div class="down">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQt1P1CwzKTb8E-_8qzdKg1381HbA4lU6mTqDYhayLJ-ynwqR02oxnr-1fw30z1si2LeoK1-r6VnlZTvs1uFZjT1KNuSWSiuGAM8DJZgmHDs.png?r=f4d">
+            </div>
+            <div class="title">
+                스물다섯 스물하나
+            </div>
+            <div class="titlee">
+                2022 | 15+ | 시즌 1개 | 로맨스
+            </div>
+            <div class="story">
+                꿈은 그저 꿈으로만 남을 것 같던 그 시절. 야심 찬 목표를 향해 달려가던 고등학교 펜싱선수가 무너진 삶을 다시 세우려 억척스럽게 살아가는 청년을 만난다.
+            </div>
+            <div class="storry">
+                주연 : 김태리,남주혁,김지연<br>
+                크리에이터 : 정지현,권도은
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81517168'">
+                시청하기
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

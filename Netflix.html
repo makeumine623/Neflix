@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .top {
+            width: 100vw;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            width: 100vw;
+            height: calc(100vh - 60px);
+            background-color: #252525;
+        }
+
+        .down table {
+            margin: 0 auto;
+        }
+
+        .second {
+            width: 90%;
+            margin: 0 auto;
+
+        }
+
+        .ranking > div {
+            display: inline-block;
+            padding: 10px 20px 0 0px;
+        }
+
+        .text {
+            color: white;
+            font-size: xx-large;
+            padding-left: 100px;
+            padding-top: 60px;
+        }
+
+        .down img {
+            width: 400px;
+            height: 200px;
+            transition: 0.5s;
+        }
+
+        .down img:hover {
+            scale: 1.05;
+            cursor: pointer;
+        }
+
+        .title {
+            color: white;
+            font-size: x-large;
+            text-align: center;
+        }
+
+        .title > td:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .titlee {
+            color: white;
+            font-size: x-large;
+            text-align: center;
+            padding-left: 50px;
+        }
+
+        .titlee:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        td {
+            padding: 10px 20px 0 20px
+        }
+
+        .one {
+            color: white;
+            font-size: 100px;
+            transition: 0.3s;
+        }
+
+        .one:hover {
+            font-size: 150px;
+            cursor: pointer;
+            text-shadow: 10px 0 8px blue;
+        }
+
+        .two div {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <a href="https://www.netflix.com/kr/">
+            <img src="./img/로고.png">
+        </a>
+    </div>
+
+    <div class="down">
+        <table>
+            <tr>
+                <td class="text" colspan="5">
+                    지금 뜨는 애니매이션
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./img/최애의 아이.jpg">
+                </td>
+                <td>
+                    <img src="./img/스파이 패밀리.jpg">
+                </td>
+                <td>
+                    <img src="./img/벼량 위에 포뇨.jpg">
+                </td>
+                <td>
+                    <img src="./img/사이키쿠스오.jpg">
+                </td>
+                <td>
+                    <img src="./img/나의 행복한 결혼.jpg">
+                </td>
+            </tr>
+            <tr class="title">
+                <td onclick="window.location.href = './href/최애의 아이.html'">
+                    최애의 아이
+                </td>
+                <td onclick="window.location.href ='./href/스파이 패밀리.html'">
+                    스파이패밀리
+                </td>
+                <td onclick="window.location.href ='./href/벼랑 위의 포뇨.html'">
+                    벼랑 위의 포뇨
+                </td>
+                <td onclick="window.location.href ='./href/사이키쿠스오.html'">
+                    사이키쿠스오의 재난
+                </td>
+                <td onclick="window.location.href ='./href/나의 행복한 결혼.html'">
+                    나의 행복한 결혼
+                </td>
+            </tr>
+        </table>
+        
+        <div class="second">
+            <div class="text">
+                방송/시리즈 순위
+            </div>
+            <div class="ranking">
+                <div>
+                    <div class="two">
+                        <div class="one">
+                            1
+                        </div>
+                        <div>
+                            <img src="./img/좀비 버스.jpg">
+                        </div>
+                    </div>
+                    <div class="titlee" onclick="window.location.href ='./href/좀비버스.html'">
+                        좀비버스
+                    </div>
+                </div>
+
+                <div>
+                    <div class="two">
+                        <div class="one">
+                            2
+                        </div>
+                        <div>
+                            <img src="./img/힙하게.jpg">
+                        </div>
+                    </div>
+                    <div class="titlee" onclick="window.location.href ='./href/힙하게.html'">
+                        힙하게
+                    </div>
+                </div>
+
+                <div>
+                    <div class="two">
+                        <div class="one">
+                            3
+                        </div>
+                        <div>
+                            <img src="./img/경이로운 소문.jpg">
+                        </div>
+                    </div>
+                    <div class="titlee" onclick="window.location.href ='./href/경이로운 소문.html'">
+                        경이로운 소문
+                    </div>
+                </div>
+
+                <div>
+                    <div class="two">
+                        <div class="one">
+                            4
+                        </div>
+                        <div>
+                            <img src="./img/오랫동안 당신을 기다렸습니다..jpg">
+                        </div>
+                    </div>
+                    <div class="titlee" onclick="window.location.href ='./href/오랫동안 당신을 기다렸습니다.html'">
+                        오랫동안 당신을 기다렸습니다
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <td class="text" colspan="5">
+                    한국 드라마
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./img/겟마을 차차차.jpg">
+                </td>
+                <td>
+                    <img src="./img/그 해 우리는.jpg">
+                </td>
+                <td>
+                    <img src="./img/김비서가 왜그럴까.jpg">
+                </td>
+                <td>
+                    <img src="./img/스물다섯 스물하나.jpg">
+                </td>
+                <td>
+                    <img src="./img/여신 강림.jpg">
+                </td>
+            </tr>
+            <tr class="title">
+                <td onclick="window.location.href ='./href/갯마을 차차차.html'">
+                    갯마을 차차차
+                </td>
+                <td onclick="window.location.href ='./href/그해 우리는.html'">
+                    그해 우리는
+                </td>
+                <td onclick="window.location.href ='./href/김비서가 왜 그럴까.html'">
+                    김비서가 왜 그럴까
+                </td>
+                <td onclick="window.location.href ='./href/스물다섯 스물하나.html'">
+                    스물다섯 스물하나
+                </td>
+                <td onclick="window.location.href ='./href/여신 강림.html'">
+                    여신강림
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
+
+<!-- 
+    padding: 20px 0 10px 100px;
+ -->

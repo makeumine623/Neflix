@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background: linear-gradient(to left,
+                    rgba(37, 37, 37, 0),
+                    rgba(37, 37, 37, 0.2),
+                    rgba(37, 37, 37, 0.4),
+                    rgba(37, 37, 37, 0.6),
+                    rgba(37, 37, 37, 0.8),
+                    rgba(37, 37, 37, 1),
+                    rgba(37, 37, 37, 1)),
+                    url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABdgdIQCAr9BX6ISNhu2QsbXEM97nGJa_JLQAWoXz6vaf92W67R2rjfalW1PIkvHh3udjqbjIXZy2wkdfLokLygbzPQVq6NQ9SBaS.jpg?r=b1d);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            width: 100%;
+            height: calc(100vh - 60px);
+        }
+
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfxiQ7eRA3_t2bB85rd0v3Ud3w8bKcSSvus2aDmDkPHpBiN_Vfz8xJbchcMtJwcCnzblVweYEatGySEGplJWSwlKp2Hb25ZZie8h3gegTtom.png?r=13b">
+            </div>
+            <div class="title">
+                그 해 우리는
+            </div>
+            <div class="titlee">
+                2021 | 15+ | 시즌 1개 | 코미디
+            </div>
+            <div class="story">
+                고등학교 시절 촬영한 다큐멘터리가 역주행하며 화제가 됐다. 서로 안 좋게 헤어졌건만, 어쩔 수 없이 다시 카메라 앞에 선 두 사람. 그렇게 서로의 삶에 다시 모습을 드러내기 시작한다.
+            </div>
+            <div class="storry">
+                주연: 최우식,김다미,김성철<br>
+                크리에이터: 김윤진,이나은
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81486372'">
+                시청하기
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

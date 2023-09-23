@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #252525;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            width: 50%;
+            height: calc(100% - 60px);
+            display: inline-block;
+            padding: 50px;
+        }
+
+        .down div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="img">
+            <img
+                src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABSOLohuhIUzMjnAsMORwM__Zyu9BQxbCAui2_XXOcRt6Fs7DuBvIzyUvk39WuBjK8xyTNS0h6BDhoTPoW5pAOfQ6BUk0_fLeGNuPPMqUGHBe.png?r=948">
+        </div>
+        <div class="title">
+            최애의 아이
+        </div>
+        <div class="titlee">
+            2023 | 15+ | 시즌 1개 | 아니메
+        </div>
+        <div class="story">
+            어느 날, 최애 아이돌을 눈앞에서 만난 시골 의사. 비밀을 품은 스타와의 만남이 그를 연예계라는 비정한 세계로 끌어들인다.
+        </div>
+        <div class="storry">
+            주연 : 타카하시 리에,오쓰카 다케오,이고마 유리에
+        </div>
+        <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81684733'">
+            시청하기
+        </div>
+    </div>
+</body>
+
+</html>

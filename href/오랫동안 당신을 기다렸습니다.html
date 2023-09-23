@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #252525;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background-image: url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRnWZ-ZvaGNB9ZfW1_S4BNcG7y1j5mvYSr9qzuI8dyfz3UTVb6jW5EYVYdC1pGGXMTIKwvOC552NZTYbPYxnd32_4vGjhYHQFgvb.jpg?r=24f);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        .under {
+            width: 50%;
+            height: calc(100% - 60px);
+            display: inline-block;
+            padding: 100px;
+            background: linear-gradient(to left,
+                rgba(37,37,37,0),
+                rgba(37,37,37,0.8),
+                rgba(37,37,37,0.9),
+                rgba(37,37,37,1),
+                rgba(37,37,37,1))
+        }
+        
+        .under div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABYNb-fAMGpOTHFwKA4G-LM2aWOLRewLzBvFOQkVHmsk7256IoM0PeoVFb4XYXIU_sRNtONEDMJ0bYXwNJRIC8DmjUhFQrBhrvijulRW-RQzT.png?r=0e7">
+            </div>
+            <div class="title">
+                오랫동안 당신을 기다렸습니다
+            </div>
+            <div class="titlee">
+                2023 | 15+ | 시즌 1개 | 스릴러
+            </div>
+            <div class="story">
+                동생이 연쇄 살인 사건의 용의자가 된 후 복잡한 수사에 착수한 형사. 이때부터 어둡고 위험한 길이 그의 앞에 펼쳐진다.
+            </div>
+            <div class="storry">
+                주연 : 나인우,김지은,권율<br>
+                크리에이터 : 한철수,김용민,권민수
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81713079'">
+                시청하기
+            </div>
+        </div>
+    </div>
+</body>
+</html>

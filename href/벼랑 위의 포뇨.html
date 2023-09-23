@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #252525;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background: linear-gradient(to left,
+                    rgba(37, 37, 37, 0),
+                    rgba(37, 37, 37, 0.2),
+                    rgba(37, 37, 37, 0.4),
+                    rgba(37, 37, 37, 0.6),
+                    rgba(37, 37, 37, 0.8),
+                    rgba(37, 37, 37, 1),
+                    rgba(37, 37, 37, 1)),
+                    url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABT3QqkAO-ERnJJ4NAbAfuLTlmFAikIXrcee8dLTNimtwuLuZXndr5B0ZbD8d3ZOJHUpIuoiXii2xdnv0iQUwriH-CNvk2wA3tt22.jpg?r=732);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            width: 100%;
+            height: calc(100vh - 60px);
+        }
+
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABRFttTGhicqaJSzSwSUdVzet9TQIRBi7i0gwRAmDA_cjIakXAyN-w_j-FNvEucULxkKgaJ-hFh6v9iS9J2T1opwY9DGvTZeNx7p4zuNwRK8r.png?r=ada">
+            </div>
+            <div class="title">
+                벼랑 위의 포뇨
+            </div>
+            <div class="titlee">
+                2008 | 전체관람가 | 1시간 41분 | 아니메
+            </div>
+            <div class="story">
+                따분한 바다 생활이 싫어 가출한 물고기 공주 포뇨. 벼랑 위에 사는 인간 꼬마 소스케를 만나 친구가 된다.<br>
+                온 바다가 들썩들썩 포뇨를 찾아 나서지만, 이 고집불통 물고기의 소원은 오직 하나. 포뇨도 소스케처럼 인간이 될 거야!
+            </div>
+            <div class="storry">
+                주연 : 야마구치 토모코,나가시마 가즈시게,아마미 유키
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/70106454'">
+                시청하기
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

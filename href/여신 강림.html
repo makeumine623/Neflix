@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .top {
+            width: 100%;
+            height: 6vh;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background: linear-gradient(to left,
+                    rgba(37, 37, 37, 0),
+                    rgba(37, 37, 37, 0.2),
+                    rgba(37, 37, 37, 0.4),
+                    rgba(37, 37, 37, 0.6),
+                    rgba(37, 37, 37, 0.8),
+                    rgba(37, 37, 37, 1),
+                    rgba(37, 37, 37, 1)),
+                    url(https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABf9bRpmfM6OUp8RI2T_N11xVujYlx0Zfj_UN-EU9jA-s8O_MUQ1qvqiY68dKPPo3qzhFhg6mRdFQuEQ82P06dhfWQQUYP3sUAGIg.jpg?r=7a2);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            width: 100%;
+            height: calc(100vh - 60px);
+        }
+
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABSHBdiZ3kFXCbyrItuhJbuczk1217ulDJcK5_U_sCOpihEnnFaxZ71L1xnFj7F3Wnc7FVLfZQcOal_DTo8C85-_cuUY0FGrXoD8HqsB5B1fi.png?r=6e5">
+            </div>
+            <div class="title">
+                여신강림
+            </div>
+            <div class="titlee">
+                2020 | 15+ | 시즌 1개 | 코미디
+            </div>
+            <div class="story">
+                왕따를 당하던 10대 여학생. 화장 기술을 마스터한 그녀가 전학 간 새 학교에서 여신으로 거듭난다. 그러나 아름다운 외모를 유지하는 건 결코 쉬운 일이 아니었으니.
+            </div>
+            <div class="storry">
+                주연 : 문가영,차은우,황인엽<br>
+                크리에이터 : 김상협,이시은
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81410834'">
+                시청하기
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

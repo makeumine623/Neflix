@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #252525;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            width: 50%;
+            height: calc(100% - 60px);
+            display: inline-block;
+            padding: 50px;
+        }
+
+        .down div {
+            padding: 20px;
+        }
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="img">
+            <img
+                src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABbQyijNhMut4uIwjQFfZR-ixturhDIZHWslmAG6bpjjIaVdi-AsCAcRdaZqYc8tIZIXXtnb693SuwwX1bN_c8vDD59c5AODdfb6bvn_HKp11sdwsBgJeWrFhriF-GuGt6oorWJ20LpjB0_foIDpgBhiEoCzE3TDp7oK-n9KrkUawlKdV1avapQ.png?r=801">
+        </div>
+        <div class="title">
+            좀비버스
+        </div>
+        <div class="titlee">
+            2023 | 15+ | 시즌 1개 | 호러
+        </div>
+        <div class="story">
+            서울 한복판에서 좀비 바이러스가 창궐했다! 기상천외한 퀘스트를 맞닥뜨리는 출연자들. 그중 좀비를 따돌리고 생존할 이는 과연 누구일까?
+        </div>
+        <div class="storry">
+            주연 : 이시영,노홍철,박나래<br>
+            크리에이터 : 박진경, 문상돈
+        </div>
+        <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81635888'">
+            시청하기
+        </div>
+    </div>
+</body>
+
+</html>

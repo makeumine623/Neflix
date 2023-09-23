@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .top {
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+
+        .top img {
+            width: 120px;
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        .down {
+            background: linear-gradient(to left,
+                    rgba(37, 37, 37, 0),
+                    rgba(37, 37, 37, 0.2),
+                    rgba(37, 37, 37, 0.4),
+                    rgba(37, 37, 37, 0.6),
+                    rgba(37, 37, 37, 0.8),
+                    rgba(37, 37, 37, 1),
+                    rgba(37, 37, 37, 1)),
+                    url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYbbx7pvP101iPNrWO1OKPS3wZlNPZCevutWPelFcXvEGhSPTKUZ46pwgqCmWDzi6msRRINV4eWC8uKcEYKhskxpFfc1xUao7DAN.jpg?r=0b0);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            width: 100%;
+            height: calc(100vh - 60px);
+        }
+
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
+            padding: 20px;
+        }
+
+
+        .img>img {
+            width: 70%;
+        }
+
+        .title {
+            color: white;
+            font-size: 50px;
+        }
+
+        .titlee {
+            color: white;
+            font-size: 20px;
+        }
+
+        .story {
+            color: white;
+            font-size: 25px;
+        }
+
+        .storry {
+            color: rgb(202, 202, 202);
+            font-size: 25px;
+        }
+
+        .button {
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            margin: 15px;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>
+            <a href="https://www.netflix.com/kr/">
+                <img src="../img/로고.png">
+            </a>
+        </div>
+    </div>
+    <div class="down">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABRLdMgTMRqKVZdCsiQB17T8Qz1oqhjxRzT2Bs5Ab7eW8sS9a9Wd3UZngN69XWOed1d55y-Z5A4vsIo-J0IWEPZppbQN7-xLeP7wC6JP8cjRQ.png?r=db0">
+            </div>
+            <div class="title">
+                경이로운 소문
+            </div>
+            <div class="titlee">
+                2020 | 15+ | 시즌 2개 | 액션
+            </div>
+            <div class="story">
+                문 닫고 가자! 낮에는 국숫집 직원, 밤에는 악귀를 때려잡는 사냥꾼. 이승과 저승을 오가는 카운터들의 세계에 경이로운 소년, 소문이 들어온다. 동명의 인기 웹툰 원작
+            </div>
+            <div class="storry">
+                주연 : 조병규,유준상,김세정<br>
+                크리에이터 : 유선동,김새봄,여지나
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81323551'">
+                시청하기
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
