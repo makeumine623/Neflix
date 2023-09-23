@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
-            background-color: #252525;
         }
 
         .top {
@@ -24,13 +27,29 @@
         }
 
         .down {
-            width: 50%;
-            height: calc(100% - 60px);
-            display: inline-block;
-            padding: 50px;
+            background: linear-gradient(to left,
+                rgba(37, 37, 37, 0),
+                rgba(37, 37, 37, 0.2),
+                rgba(37, 37, 37, 0.4),
+                rgba(37, 37, 37, 0.6),
+                rgba(37, 37, 37, 0.8),
+                rgba(37, 37, 37, 1),
+                rgba(37, 37, 37, 1)),
+                url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZu993pyu5pDz700IRPUc6Xbpkt2n8TlCFWWbNdGDQ1J0tA9eyWmCCcArYE9sjLjPRtE5Zj0b24QMrSAraPipHJSgVFqWlohQPlM.jpg?r=7dc);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+            width: 100%;
+            height: calc(100vh - 60px);
         }
 
-        .down div {
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
             padding: 20px;
         }
 
@@ -84,25 +103,27 @@
         </div>
     </div>
     <div class="down">
-        <div class="img">
-            <img
-                src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABbQyijNhMut4uIwjQFfZR-ixturhDIZHWslmAG6bpjjIaVdi-AsCAcRdaZqYc8tIZIXXtnb693SuwwX1bN_c8vDD59c5AODdfb6bvn_HKp11sdwsBgJeWrFhriF-GuGt6oorWJ20LpjB0_foIDpgBhiEoCzE3TDp7oK-n9KrkUawlKdV1avapQ.png?r=801">
-        </div>
-        <div class="title">
-            좀비버스
-        </div>
-        <div class="titlee">
-            2023 | 15+ | 시즌 1개 | 호러
-        </div>
-        <div class="story">
-            서울 한복판에서 좀비 바이러스가 창궐했다! 기상천외한 퀘스트를 맞닥뜨리는 출연자들. 그중 좀비를 따돌리고 생존할 이는 과연 누구일까?
-        </div>
-        <div class="storry">
-            주연 : 이시영,노홍철,박나래<br>
-            크리에이터 : 박진경, 문상돈
-        </div>
-        <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81635888'">
-            시청하기
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABbQyijNhMut4uIwjQFfZR-ixturhDIZHWslmAG6bpjjIaVdi-AsCAcRdaZqYc8tIZIXXtnb693SuwwX1bN_c8vDD59c5AODdfb6bvn_HKp11sdwsBgJeWrFhriF-GuGt6oorWJ20LpjB0_foIDpgBhiEoCzE3TDp7oK-n9KrkUawlKdV1avapQ.png?r=801">
+            </div>
+            <div class="title">
+                좀비버스
+            </div>
+            <div class="titlee">
+                2023 | 15+ | 시즌 1개 | 호러
+            </div>
+            <div class="story">
+                서울 한복판에서 좀비 바이러스가 창궐했다! 기상천외한 퀘스트를 맞닥뜨리는 출연자들. 그중 좀비를 따돌리고 생존할 이는 과연 누구일까?
+            </div>
+            <div class="storry">
+                주연 : 이시영,노홍철,박나래<br>
+                크리에이터 : 박진경, 문상돈
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81635888'">
+                시청하기
+            </div>
         </div>
     </div>
 </body>

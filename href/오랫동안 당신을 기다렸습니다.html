@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        
         body {
             margin: 0;
             background-color: #252525;
@@ -23,23 +27,26 @@
         }
 
         .down {
-            background-image: url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRnWZ-ZvaGNB9ZfW1_S4BNcG7y1j5mvYSr9qzuI8dyfz3UTVb6jW5EYVYdC1pGGXMTIKwvOC552NZTYbPYxnd32_4vGjhYHQFgvb.jpg?r=24f);
+            background: linear-gradient(to left,
+                rgba(37, 37, 37, 0),
+                rgba(37, 37, 37, 0.2),
+                rgba(37, 37, 37, 0.4),
+                rgba(37, 37, 37, 0.6),
+                rgba(37, 37, 37, 0.8),
+                rgba(37, 37, 37, 1),
+                rgba(37, 37, 37, 1)),
+                url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRnWZ-ZvaGNB9ZfW1_S4BNcG7y1j5mvYSr9qzuI8dyfz3UTVb6jW5EYVYdC1pGGXMTIKwvOC552NZTYbPYxnd32_4vGjhYHQFgvb.jpg?r=24f);
             background-repeat: no-repeat;
             background-position: right;
-            background-size: contain;
+            background-size: cover;
+            width: 100%;
+            height: calc(100vh - 60px);
         }
 
         .under {
             width: 50%;
-            height: calc(100% - 60px);
             display: inline-block;
-            padding: 100px;
-            background: linear-gradient(to left,
-                rgba(37,37,37,0),
-                rgba(37,37,37,0.8),
-                rgba(37,37,37,0.9),
-                rgba(37,37,37,1),
-                rgba(37,37,37,1))
+            padding: 110px;
         }
         
         .under div {

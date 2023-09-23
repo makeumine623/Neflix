@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        
         body {
             margin: 0;
-            background-color: #252525;
         }
 
         .top {
@@ -24,13 +27,29 @@
         }
 
         .down {
-            width: 50%;
-            height: calc(100% - 60px);
-            display: inline-block;
-            padding: 50px;
+            background: linear-gradient(to left,
+                rgba(37, 37, 37, 0),
+                rgba(37, 37, 37, 0.2),
+                rgba(37, 37, 37, 0.4),
+                rgba(37, 37, 37, 0.6),
+                rgba(37, 37, 37, 0.8),
+                rgba(37, 37, 37, 1),
+                rgba(37, 37, 37, 1)),
+                url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABa-ATT3xDsBMRyIGp6d0hpxD2xWTeTgMSaxh8s_w0sLor0W4AJDIfsDj8TF-iEJU8n6BbDpmv3ne1ZhEJ7uej-ojwUu_SNBC8uhH.jpg?r=235);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+            width: 100%;
+            height: calc(100vh - 60px);
         }
 
-        .down div {
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
             padding: 20px;
         }
 
@@ -84,24 +103,26 @@
         </div>
     </div>
     <div class="down">
-        <div class="img">
-            <img
-                src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABSOLohuhIUzMjnAsMORwM__Zyu9BQxbCAui2_XXOcRt6Fs7DuBvIzyUvk39WuBjK8xyTNS0h6BDhoTPoW5pAOfQ6BUk0_fLeGNuPPMqUGHBe.png?r=948">
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABSOLohuhIUzMjnAsMORwM__Zyu9BQxbCAui2_XXOcRt6Fs7DuBvIzyUvk39WuBjK8xyTNS0h6BDhoTPoW5pAOfQ6BUk0_fLeGNuPPMqUGHBe.png?r=948">
+            </div>
+            <div class="title">
+                최애의 아이
+            </div>
+            <div class="titlee">
+                2023 | 15+ | 시즌 1개 | 아니메
+            </div>
+            <div class="story">
+                어느 날, 최애 아이돌을 눈앞에서 만난 시골 의사. 비밀을 품은 스타와의 만남이 그를 연예계라는 비정한 세계로 끌어들인다.
+            </div>
+            <div class="storry">
+                주연 : 타카하시 리에,오쓰카 다케오,이고마 유리에
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81684733'">
+                시청하기
         </div>
-        <div class="title">
-            최애의 아이
-        </div>
-        <div class="titlee">
-            2023 | 15+ | 시즌 1개 | 아니메
-        </div>
-        <div class="story">
-            어느 날, 최애 아이돌을 눈앞에서 만난 시골 의사. 비밀을 품은 스타와의 만남이 그를 연예계라는 비정한 세계로 끌어들인다.
-        </div>
-        <div class="storry">
-            주연 : 타카하시 리에,오쓰카 다케오,이고마 유리에
-        </div>
-        <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81684733'">
-            시청하기
         </div>
     </div>
 </body>

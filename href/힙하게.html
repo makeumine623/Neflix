@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             background-color: #252525;
@@ -24,13 +28,29 @@
         }
 
         .down {
-            width: 50%;
-            height: calc(100% - 60px);
-            display: inline-block;
-            padding: 50px;
+            background: linear-gradient(to left,
+                rgba(37, 37, 37, 0),
+                rgba(37, 37, 37, 0.2),
+                rgba(37, 37, 37, 0.4),
+                rgba(37, 37, 37, 0.6),
+                rgba(37, 37, 37, 0.8),
+                rgba(37, 37, 37, 1),
+                rgba(37, 37, 37, 1)),
+                url(https://occ-0-2219-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX9vaAgkP3TKDGA447DjMaPpSGH57kBU85yGZ1Vko-u-pqoRVCmgT7Gl3xhxFbnnFcUx6cue9MQyW-XouBM23FMYWtGP1fucwW6s.jpg?r=e2d);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+            width: 100%;
+            height: calc(100vh - 60px);
         }
 
-        .down div {
+        .under {
+            width: 50%;
+            display: inline-block;
+            padding: 110px;
+        }
+        
+        .under div {
             padding: 20px;
         }
 
@@ -84,25 +104,27 @@
         </div>
     </div>
     <div class="down">
-        <div class="img">
-            <img
-                src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcdQlObTUPEz9gC1f8kXNagC9KL1SUSKKNNjI969EPqZGWjfsjuizBl45weydu4kw_4z_UyaPF5cgADcxPhkrnpZSALsi8SdeHtZqIB_4ERu.png?r=5ef">
-        </div>
-        <div class="title">
-            힙하게
-        </div>
-        <div class="titlee">
-            2023 | 19+ | 시즌 1개 | 코미디
-        </div>
-        <div class="story">
-            초능력을 가진 수의사와 열혈 형사. 작은 마을의 자잘한 사건들을 공조 수사하던 중, 어쩌다 소름 끼치는 연쇄 살인 미스터리에 휘말린다. 이제, 두 사람의 능력이 시험대에 오른다.
-        </div>
-        <div class="storry">
-            주연 : 한지민,이민기,수호<br>
-            크리에이터 : 김석윤,이남규,오보현,김다희
-        </div>
-        <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81669777'">
-            시청하기
+        <div class="under">
+            <div class="img">
+                <img
+                    src="https://occ-0-1360-993.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcdQlObTUPEz9gC1f8kXNagC9KL1SUSKKNNjI969EPqZGWjfsjuizBl45weydu4kw_4z_UyaPF5cgADcxPhkrnpZSALsi8SdeHtZqIB_4ERu.png?r=5ef">
+            </div>
+            <div class="title">
+                힙하게
+            </div>
+            <div class="titlee">
+                2023 | 19+ | 시즌 1개 | 코미디
+            </div>
+            <div class="story">
+                초능력을 가진 수의사와 열혈 형사. 작은 마을의 자잘한 사건들을 공조 수사하던 중, 어쩌다 소름 끼치는 연쇄 살인 미스터리에 휘말린다. 이제, 두 사람의 능력이 시험대에 오른다.
+            </div>
+            <div class="storry">
+                주연 : 한지민,이민기,수호<br>
+                크리에이터 : 김석윤,이남규,오보현,김다희
+            </div>
+            <div class="button" onclick="location.href = 'https://www.netflix.com/kr/title/81669777'">
+                시청하기
+            </div>
         </div>
     </div>
 </body>
